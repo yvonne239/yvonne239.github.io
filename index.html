@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runway — Personal Finance, Retirement Planning & Financial Safety</title>
+<meta name="description" content="Runway connects today's spending decisions, tomorrow's retirement goals, and protection against financial fraud — in one browser-based planning tool.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/app.css">
+<meta property="og:title" content="Runway — Personal Finance, Retirement Planning & Financial Safety">
+<meta property="og:description" content="One view that connects what you spend now, what retirement will cost, and what protects you from fraud along the way.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the main content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="./">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="9" fill="var(--accent)"/>
+          <g stroke="#fff" stroke-linecap="round" fill="none">
+            <path d="M7 25h3.5M14 25h3.5M21 25h3.5" stroke-width="2" opacity=".5"/>
+            <path d="M7.5 20.5C13 20.5 17 15.5 23.5 8.5" stroke-width="2.8"/>
+          </g>
+          <circle cx="23.8" cy="8.2" r="2.9" fill="#fff"/>
+        </svg>
+        Runway
+      </a>
+      <nav class="site-nav" aria-label="Page sections">
+        <a href="#features" class="hide-sm">What it does</a>
+        <a href="#how" class="hide-sm">How it works</a>
+        <a href="#safety" class="hide-sm">Safety</a>
+        <a href="#about">About</a>
+        <a class="btn btn-sm" href="app.html">Open the demo</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================ hero -->
+<section class="band hero">
+  <div class="wrap hero-layout">
+    <div>
+      <p class="eyebrow">Personal finance · Retirement · Financial safety</p>
+      <h1>The distance between what you spend today and the retirement you are heading for.</h1>
+      <p class="lede">
+        Most tools answer one question at a time. Runway puts all three in a single picture:
+        where the money goes each month, what that means for the years after work, and what
+        is quietly going wrong in between.
+      </p>
+      <div class="row">
+        <a class="btn" href="app.html">Open the working demo</a>
+        <a class="btn btn-secondary" href="#features">See what it does</a>
+      </div>
+      <p class="hero-note">
+        No sign-up, no bank connection, no account. The demo runs entirely in your browser
+        with sample data, and anything you change stays on your own device.
+      </p>
+    </div>
+
+    <div class="preview" aria-hidden="true">
+      <div class="preview-bar"><i></i><i></i><i></i><span>Runway — dashboard</span></div>
+      <div class="preview-body">
+        <div class="tile-label">Your money lasts to</div>
+        <div class="hero-figure" style="font-size:2.6rem">Age 92+</div>
+        <p style="margin:10px 0 20px;color:var(--ink-2);font-size:0.9rem">
+          On your current plan, savings still have $84,200 left in today's money at age 92.</p>
+
+        <div class="tile-label" style="margin-bottom:8px">Money in and money out</div>
+        <svg viewBox="0 0 420 140" width="100%" height="140" style="overflow:visible">
+          <line x1="34" x2="412" y1="20"  y2="20"  stroke="var(--grid)" stroke-width="1"/>
+          <line x1="34" x2="412" y1="60"  y2="60"  stroke="var(--grid)" stroke-width="1"/>
+          <line x1="34" x2="412" y1="100" y2="100" stroke="var(--grid)" stroke-width="1"/>
+          <line x1="34" x2="412" y1="118" y2="118" stroke="var(--axis)" stroke-width="1"/>
+          <text x="26" y="24"  font-size="10" fill="var(--muted)" text-anchor="end">$6K</text>
+          <text x="26" y="64"  font-size="10" fill="var(--muted)" text-anchor="end">$4K</text>
+          <text x="26" y="104" font-size="10" fill="var(--muted)" text-anchor="end">$2K</text>
+          <path d="M44,52 L118,46 L192,50 L266,44 L340,48 L404,42 L404,118 L44,118 Z"
+                fill="var(--series-1)" opacity="0.10"/>
+          <path d="M44,52 L118,46 L192,50 L266,44 L340,48 L404,42"
+                fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M44,70 L118,78 L192,64 L266,82 L340,68 L404,74"
+                fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="404" cy="42" r="4.5" fill="var(--series-1)" stroke="var(--surface)" stroke-width="2"/>
+          <circle cx="404" cy="74" r="4.5" fill="var(--series-2)" stroke="var(--surface)" stroke-width="2"/>
+          <text x="44"  y="134" font-size="10" fill="var(--muted)" text-anchor="middle">May</text>
+          <text x="192" y="134" font-size="10" fill="var(--muted)" text-anchor="middle">Jul</text>
+          <text x="340" y="134" font-size="10" fill="var(--muted)" text-anchor="middle">Sep</text>
+        </svg>
+        <div class="legend" style="margin-top:14px">
+          <span class="legend-item"><span class="legend-line" style="background:var(--series-1)"></span>Money in</span>
+          <span class="legend-item"><span class="legend-line" style="background:var(--series-2)"></span>Money out</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================= the idea -->
+<section class="band tight alt">
+  <div class="wrap">
+    <div class="grid cols-3">
+      <div>
+        <h3 style="font-size:1.05rem;margin-bottom:8px">Today</h3>
+        <p style="font-size:0.95rem;color:var(--ink-2);margin:0">
+          Where this month's money actually went, what is still due before payday, and whether
+          the budget you set is the budget you are living.</p>
+      </div>
+      <div>
+        <h3 style="font-size:1.05rem;margin-bottom:8px">Tomorrow</h3>
+        <p style="font-size:0.95rem;color:var(--ink-2);margin:0">
+          What retirement is likely to cost, what a pension and Social Security already cover,
+          and how long savings have to fill the rest.</p>
+      </div>
+      <div>
+        <h3 style="font-size:1.05rem;margin-bottom:8px">What could go wrong</h3>
+        <p style="font-size:0.95rem;color:var(--ink-2);margin:0">
+          The charge that doesn't fit the pattern, and the message that uses the words every
+          fraud team recognises. Both explained, never just flagged.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== features -->
+<section class="band" id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What it does</p>
+      <h2>Eight tools that share one set of numbers</h2>
+      <p>Change a category on a transaction and the budget, the cash-flow calendar and the
+         retirement projection all move with it. That is the whole point — the parts of a
+         financial life are not separate, so the tools shouldn't be either.</p>
+    </div>
+
+    <div class="grid cols-3">
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></div>
+        <h3>Financial dashboard</h3>
+        <p>Income, spending, savings, debts and retirement goals in one view — with the single
+           number that matters most up front: how long the money lasts.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div>
+        <h3>Import and categorise</h3>
+        <p>Upload a CSV from your bank, paste rows in, or add spending by hand. Every guessed
+           category shows the word it matched, so you can correct it with confidence.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Personalised budgeting</h3>
+        <p>Adjustable budgets for essentials, discretionary spending, debt payments and savings —
+           or set them all at once from what you actually spent over the last three months.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <h3>Cash-flow calendar</h3>
+        <p>Income and bills mapped day by day with a running balance, so a shortfall shows up
+           while there is still time to move a payment rather than after a fee has landed.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 4V2M12 22v-2M4 12H2M22 12h-2"/></svg></div>
+        <h3>Savings-goal planner</h3>
+        <p>Emergencies, retirement, travel, helping family — each with a target, a monthly
+           contribution and the month it actually finishes at the rate you are going.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M6 20v-6M11 20V9M16 20v-9M21 20V5"/></svg></div>
+        <h3>Retirement income planner</h3>
+        <p>Expected spending set against pension, Social Security, part-time work and savings
+           withdrawals — year by year, with every assumption written out in plain language.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18 L9 11 L13 14 L20 5"/><path d="M15 5h5v5"/></svg></div>
+        <h3>Scenario simulator</h3>
+        <p>Retire two years later. Work part-time to seventy. Claim Social Security at seventy.
+           Watch markets disappoint. Drag one slider and see the whole projection respond.</p>
+      </article>
+
+      <article class="feature">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.3-2.9 7.9-7 9-4.1-1.1-7-4.7-7-9V6z"/><path d="M12 9v4M12 16h.01"/></svg></div>
+        <h3>Alerts &amp; scam checker</h3>
+        <p>Unusual charges flagged with the reason spelled out, plus a checker for the message
+           or phone call you are not sure about. Mark anything as recognised, or as needing a look.</p>
+      </article>
+
+      <article class="feature" style="background:var(--accent-weak);border-color:var(--accent)">
+        <div class="feature-icon" style="background:var(--surface)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+        <h3>See it working</h3>
+        <p>The demo is loaded with six months of realistic sample data — including a handful of
+           transactions designed to trip the safety checks.</p>
+        <p style="margin-top:14px"><a class="btn btn-sm" href="app.html">Open the demo</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ how -->
+<section class="band alt" id="how">
+  <div class="wrap">
+    <div class="grid cols-2" style="gap:56px;align-items:start">
+      <div>
+        <p class="eyebrow">How it works</p>
+        <h2 style="font-size:1.85rem;margin-bottom:28px">Three steps, then it keeps up with you</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num"></div>
+            <div>
+              <h3>Bring the money in</h3>
+              <p>Import a CSV, paste rows, or type them. Categories are guessed from the
+                 description and shown with the word that matched, so correcting one takes a second.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num"></div>
+            <div>
+              <h3>Say what you mean to do</h3>
+              <p>Set budgets, list the bills that repeat, name the things you are saving for,
+                 and write down what you expect retirement to cost.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num"></div>
+            <div>
+              <h3>Ask the hard questions</h3>
+              <p>Does this month hold together? Does the plan reach ninety-two? What happens if
+                 it doesn't? And is that charge from Tuesday really yours?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:6px">Built to be read, not just looked at</h3>
+        <p class="card-sub">A few decisions that shape every screen.</p>
+        <ul class="signal-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+            <span><b>Every chart has a table.</b> Values are never locked inside a hover tooltip, and
+            every chart can be read with the keyboard.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+            <span><b>Every projection shows its assumptions.</b> Return rates, inflation, claiming
+            adjustments and what is not modelled — including tax.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+            <span><b>Every alert explains itself.</b> A flag you can't interrogate is a flag that
+            teaches people to ignore flags.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg>
+            <span><b>Large type, high contrast, light and dark.</b> Built for the people most often
+            on the receiving end of financial fraud.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================= safety -->
+<section class="band" id="safety">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Financial safety</p>
+      <h2>Two different problems, both worth naming</h2>
+      <p>A charge you didn't make is a bank's problem. A payment you were talked into making is
+         not — and it is by far the more expensive of the two. Runway treats them separately.</p>
+    </div>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3 style="margin-bottom:6px">Unusual transaction alerts</h3>
+        <p class="card-sub">Pattern checks against your own history, not a generic rule book.</p>
+        <ul class="signal-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--serious)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>Much larger than usual.</b> A charge several times your typical spend in that category.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--serious)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>Possible duplicate.</b> The same merchant and the same amount within a few days.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>Hard-to-reverse payment.</b> Gift cards, wires, crypto, instant transfers —
+            the methods that cannot be clawed back.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+            <span><b>First time, out of area, card not present.</b> Individually ordinary; together,
+            worth a second look.</span></li>
+        </ul>
+        <p style="margin:18px 0 0;font-size:0.9rem;color:var(--ink-2)">
+          Mark anything as recognised and it stops appearing. Mark it as needing investigation and
+          you get the steps — and the deadlines — for disputing it.</p>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:6px">Scam-awareness checker</h3>
+        <p class="card-sub">Paste the message. It names the tactic, and shows the exact words that matched.</p>
+        <ul class="signal-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>“Move your money to a safe account.”</b> There is no such account. This
+            instruction is fraud, every time.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>“Don't tell anyone.”</b> Asking you to keep it from your family or the teller
+            is one of the strongest single indicators there is.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z"/><path d="M12 9v5M12 17h.01"/></svg>
+            <span><b>“Read me the code we just sent.”</b> A one-time code is the key to the account.
+            Nobody legitimate asks for it.</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+            <span><b>Urgency, authority, secrecy.</b> The three ingredients almost every scam
+            needs, whatever story it is wrapped in.</span></li>
+        </ul>
+        <p style="margin:18px 0 0;font-size:0.9rem;color:var(--ink-2)">
+          Fourteen patterns in total. The checker never returns a verdict — it tells you what
+          matched and what to do next, and leaves the judgement with you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================== about -->
+<section class="band alt" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">About</p>
+      <h2>An open demonstration, not a financial service</h2>
+    </div>
+    <div class="grid cols-2" style="align-items:start">
+      <div>
+        <p>Runway is a self-contained front-end project. There is no server, no account system
+           and no connection to any bank. The demo ships with six months of generated sample
+           data; anything you change is written to your own browser's local storage and nowhere
+           else. Clearing your browser data clears Runway with it.</p>
+        <p>Everything — the categorisation rules, the projection model, the anomaly checks and
+           the scam-pattern library — runs as plain JavaScript modules in the page. No build
+           step, no framework, no third-party scripts, no analytics.</p>
+        <p style="margin-bottom:0">The code is on GitHub, and the parts worth reusing are the
+           parts that are usually hidden: the keyword rules that categorise a transaction, the
+           year-by-year retirement model, and the fourteen scam patterns with the reasoning
+           behind each one.</p>
+      </div>
+      <div class="disclosure">
+        <p><strong>Please read this part.</strong> Runway is an educational demonstration. It is
+          not financial, tax, investment or legal advice, and it is not a substitute for a
+          qualified professional who knows your situation.</p>
+        <p><strong>The projections are deliberately simple.</strong> They assume one steady rate
+          of return every year, which no real market provides. They do not model tax, sequence-of-returns
+          risk, long-term care costs, or anything else that tends to decide real outcomes. Treat the
+          shape of the answer as useful and the decimal places as fiction.</p>
+        <p><strong>The safety tools find patterns, not truth.</strong> A sophisticated scam may
+          match none of them. An ordinary message from your bank may match several. Use them as
+          a prompt to stop and check through a channel you choose yourself.</p>
+        <p style="margin-bottom:0"><strong>If money is at stake right now</strong>, call your bank
+          on the number printed on your card and ask for the fraud team. In the US you can also
+          report to the FTC at reportfraud.ftc.gov, or call the National Elder Fraud Hotline on
+          833-372-8311.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ cta -->
+<section class="band">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Have a look around</h2>
+      <p>The demo opens on a dashboard with six months of sample data behind it — including
+         a few transactions that are meant to look wrong.</p>
+      <div class="row" style="justify-content:center">
+        <a class="btn" href="app.html">Open the demo</a>
+        <a class="btn btn-secondary" href="app.html#/safety">Go straight to the safety checks</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="row-between">
+      <div>
+        <a class="brand" href="./" style="font-size:1rem">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" style="width:24px;height:24px">
+            <rect width="32" height="32" rx="9" fill="var(--accent)"/>
+            <g stroke="#fff" stroke-linecap="round" fill="none">
+              <path d="M7 25h3.5M14 25h3.5M21 25h3.5" stroke-width="2" opacity=".5"/>
+              <path d="M7.5 20.5C13 20.5 17 15.5 23.5 8.5" stroke-width="2.8"/>
+            </g>
+            <circle cx="23.8" cy="8.2" r="2.9" fill="#fff"/>
+          </svg>
+          Runway
+        </a>
+        <p style="margin:10px 0 0;max-width:46ch">
+          A demonstration of personal finance, retirement planning and financial safety tools.
+          Educational use only — not financial advice.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p style="margin:0 0 6px"><a href="app.html">Open the demo</a></p>
+        <p style="margin:0 0 6px"><a href="#features">What it does</a></p>
+        <p style="margin:0 0 6px"><a href="#safety">Financial safety</a></p>
+        <p style="margin:0"><a href="#about">About &amp; disclaimer</a></p>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
