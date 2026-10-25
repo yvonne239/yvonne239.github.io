@@ -425,7 +425,7 @@ function downloadSample() {
   const blob = new Blob([csv], { type: 'text/csv' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'runway-sample-transactions.csv';
+  a.download = 'foresight-sample-transactions.csv';
   document.body.appendChild(a);
   a.click();
   a.remove();

@@ -1,4 +1,4 @@
-# Runway — Personal Finance, Retirement Planning & Financial Safety
+# Foresight — Personal Finance, Retirement Planning & Financial Safety
 
 **Live site: <https://yvonne239.github.io>**
 
@@ -6,7 +6,7 @@ A web platform that connects today's spending decisions, tomorrow's retirement g
 and protection against financial fraud — in one browser-based tool with no server,
 no accounts, and no bank connections.
 
-![Runway dashboard](docs/dashboard.png)
+![Foresight dashboard](docs/dashboard.png)
 
 ---
 
@@ -17,7 +17,7 @@ what this month means for age 85. A retirement calculator doesn't know that a $2
 transfer left your account on Tuesday. And almost nothing in either category takes seriously
 that the people with the most savings to protect are the ones most often targeted by fraud.
 
-Runway puts the three together: **today**, **tomorrow**, and **what could go wrong in between**.
+Foresight puts the three together: **today**, **tomorrow**, and **what could go wrong in between**.
 Change a transaction's category and the budget, the cash-flow calendar, and the retirement
 projection all move with it.
 
@@ -114,11 +114,11 @@ words, and says what to do next.
 Everything runs in the browser. The demo ships with generated sample data; anything you
 change is written to that browser's `localStorage` and nowhere else. No network requests are
 made to anything other than the static files themselves. Clearing your browser data clears
-Runway with it.
+Foresight with it.
 
 ## Disclaimer
 
-Runway is an **educational demonstration**. It is not financial, tax, investment or legal
+Foresight is an **educational demonstration**. It is not financial, tax, investment or legal
 advice, and it is not a substitute for a qualified professional who knows your situation.
 The projections are deliberately simple; treat the shape of the answer as useful and the
 decimal places as fiction. The safety tools find patterns, not truth — a sophisticated scam

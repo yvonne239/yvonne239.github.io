@@ -5,7 +5,7 @@
 import { toISO, uid, daysInMonth } from './format.js';
 import { guessCategory } from './categories.js';
 
-const KEY = 'runway.state.v1';
+const KEY = 'foresight.state.v1';
 const SCHEMA = 1;
 
 /* ---------------------------------------------------------------- PRNG --- */

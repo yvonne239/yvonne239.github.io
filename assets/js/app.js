@@ -25,7 +25,7 @@ const VIEWS = {
   safety:       { icon: 'safety',       nav: 'Safety',        view: safety },
 };
 
-const THEME_KEY = 'runway.theme';
+const THEME_KEY = 'foresight.theme';
 
 /* ------------------------------------------------------------ routing --- */
 
@@ -69,7 +69,7 @@ function render() {
   const container = document.createElement('div');
   main.replaceChildren(header, container);
   view.render(container);
-  document.title = `${view.title} · Runway`;
+  document.title = `${view.title} · Foresight`;
 
   if (focusKey) {
     const next = container.querySelector(`[data-focus-key="${CSS.escape(focusKey)}"]`);
